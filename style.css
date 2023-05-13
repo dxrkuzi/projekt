@@ -92,7 +92,8 @@
     text-align: center;
   }
   * {
-    font-family: verdana;
+    /*font-family: verdana;*/
+    font-family: 'Nunito';
   }
   .product {
     display: flex;
@@ -261,4 +262,39 @@
       font-size: 3vh;
       margin-bottom: 30%;
     }
+    #imie {
+      width: 80%;
+    }
+    #email {
+      width: 80%;
+    }
+    #wiadomosc {
+      width: 88%;
+    }
+    #formularz {
+      min-width: 62%;
+    }
+  }
+  #imie {
+   margin: 5px;
+  }
+  #email {
+    margin: 5px;
+  }
+  #wiadomosc {
+    margin: 5px;
+  }
+  #wyslij {
+    margin-left: 50%;
+  }
+  #formularz {
+    text-align:center;
+    background-color: rgb(31, 30, 30);
+    border-radius: 10%;
+    width: 30%;
+    margin-left: 35%;
+  }
+  @font-face {
+    font-family: Nunito;
+    src: url(Nunito-Regular.ttf);
   }
